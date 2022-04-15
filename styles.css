@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000000;
+  font-family: Futura;
+  font-size: 20px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px
+}
+
+#form {
+  display: flex;
+}
+
+#form>input {
+  flex: 1;
+  padding: 1em;
+  font-size: 1em;
+  margin: 1em 1em 1em 0;
+  color: #ffffff;
+  border-radius: 8px;
+  background: #000000;
+}
+
+#form>button {
+  padding: 0 1em;
+  color: #ffffff;
+  font-size: 1em;
+  margin: 1em 1em 1em 0;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #000000, #000000);
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+input:-internal-autofill-selected {
+  background-color: transparent;
+}
+
+#feels_like,
+#min_max {
+  font-size: 12px;
+  font-style: Futura;
+}

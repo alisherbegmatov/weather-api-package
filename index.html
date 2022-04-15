@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Base HTML -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Title -->
+    <title>Weather API</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="temp"></h1>
+      <h1 id="desc"></h1>
+      <h1 id="feels_like"></h1>
+      <h1 id="min_max"></h1>
+
+      <form id="form">
+        <input id="input-field" type="text" placeholder="LOCATION" required />
+        <button type="submit">SEARCH</button>
+      </form>
+    </div>
+
+    <!-- Scripts -->
+    <script src="index.js" type="module"></script>
+    <script src="scripts.js" type="module"></script>
+  </body>
+</html>
